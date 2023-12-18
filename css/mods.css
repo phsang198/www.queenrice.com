@@ -1,0 +1,118 @@
+/*
+ *  logo
+ */
+
+.queen-rice-name {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*
+ *  Gallery footer
+ */
+
+.item-gallery-footer {
+    display: block;
+    position: relative;
+    width: calc((100% - 50px) / 4);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.item-gallery-footer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.item-gallery-footer:hover:after {
+    background-color: rgba(255, 97, 07, 0.6);
+}
+
+@media (max-width: 768px) {
+    .item-gallery {
+        width: calc((100% - 110px) / 2);
+    }
+}
+
+@media (max-width: 576px) {
+    .item-gallery {
+        width: calc((100% - 30px) / 1);
+    }
+    .wrap-gallery {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/*
+ *  Wrap Picture
+ */
+
+.wrap-pic-w img {
+    width: 100%;
+}
+
+.wrap-pic-max-w img {
+    max-width: 100%;
+}
+
+.wrap-pic-h img {
+    height: 100%;
+}
+
+.wrap-pic-max-h img {
+    max-height: 100%;
+}
+
+/* 
+ *  flex
+ */
+
+.flex-w {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* 
+ *  OpenStreet Map settings 
+ */
+
+#openstreetMap {
+    width: 100%;
+    height: 800px;
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter: grayscale(100%);*/
+}
+
+/*
+ *  capodanno
+ */
+
+h2.capodanno {
+    font-size: 30px;
+    color: #ddd;
+}
+
+.capodanno blockquote {
+    border: none;
+    font-size: 28px;
+    color: #fff;
+}
