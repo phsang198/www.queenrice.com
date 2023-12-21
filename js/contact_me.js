@@ -11,7 +11,6 @@ $(function() {
             var prefix = $("select#prefix").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
-
             var firstName = name;
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
