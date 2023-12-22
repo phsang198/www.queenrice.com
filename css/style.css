@@ -1003,6 +1003,9 @@ p.subtitle {
     -o-transition: 0.2s;
     transition: 0.2s;
 }
+.dish-wrap .wrap a {
+    text-align: center;
+}
 
 .dish-wrap:hover .addtocart {
     opacity: 1;
@@ -2229,4 +2232,9 @@ input[type="text"] {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+.centered-title {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1em;
 }
