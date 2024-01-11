@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     $mail->from('info@queenrice.com', 'Queen Rice Vina Co. Ltd');
     $mail->to($email, $name);
 
-    $mail->subject = 'Thank you for interesting in some products of our company';
+    $mail->subject = 'Thank for your message, we will contact as soon as possible';
     $mail->message = '<h3>My Message</h3>
                     <b>This</b> is a html test message.';
 
