@@ -1,5 +1,5 @@
 <?php include 'sendemail.php'; ?>
-
+<?php include 'js/mail/contact/sendemail.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
